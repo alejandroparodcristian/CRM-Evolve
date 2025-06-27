@@ -13,13 +13,20 @@ while(continuar):
 6. Resumen financiero por usuario
 7. Salir
           """)
-    opcion = int(input("Introduzca una opción"))
+    opcion = int(input("Introduzca una opción: \n"))
     if(opcion == 7):
         continuar = False
     elif(opcion == 1):
         insertar.registrarUsuario()
     elif(opcion == 2):
-        buscar.buscar()
+        op = int(input(""" 
+1. Buscar por nombre
+2. Buscar por email                    
+"""))
+        if(op == 1):
+            buscar.buscar()
+        elif(op == 2):
+            buscar.buscarEmail()
     elif(opcion == 3):
         operacionesFactura.crearFactura()
     elif(opcion == 4):
