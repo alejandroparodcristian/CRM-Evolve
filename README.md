@@ -66,8 +66,7 @@ bd/
 
 ## 👨‍💻 Autor
 
-**Alejandro Parod Cristian**  
-📧 (puedes añadir tu correo aquí si deseas)  
+**Alejandro Pardo Cristian**   
 🔗 [https://github.com/alejandroparodcristian](https://github.com/alejandroparodcristian)
 
 ## 📝 Licencia
